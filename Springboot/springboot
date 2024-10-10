@@ -1,31 +1,31 @@
-###package import 오류
+### package import 오류
 
 패키지나 import 할 파일 압축 풀 때 파일 안에 같은 이름의 파일이 있어서 오류
 ex) product/product/...
 
--압축 풀 때 "여기에 풀기" 하기
+- 압축 풀 때 "여기에 풀기" 하기
 
 
-###"error": "could not prepare statement
-### [Schema \"SYSTEM\" not found; SQL statement:\nselect next value for system.uuid [90079-224]]
-### [select next value for system.uuid]; SQL [select next value for system.uuid]",
-### "data": null
+### "error": "could not prepare statement
+###  [Schema \"SYSTEM\" not found; SQL statement:\nselect next value for system.uuid [90079-224]]
+###  [select next value for system.uuid]; SQL [select next value for system.uuid]",
+###  "data": null
 
 system.uuid 가 정의되어 있지 않아 null 나온거 같다.
 
--system.uuid -> system-uuid 수정(오타 주의하기)
+- system.uuid -> system-uuid 수정(오타 주의하기)
 
 
-###http://localhost:9090 서버에러
+### http://localhost:9090 서버에러
 
 코드에 문제가 없는거 같은데 서버가 안열린다.
 
--http://localhost:9090/test//testRequestBody  <- / 두번 사용해서 오류(오타 주의해라)
+- http://localhost:9090/test//testRequestBody  <- / 두번 사용해서 오류(오타 주의해라)
 
 
-###http://localhost:9090 서버가 안열린다.
+### http://localhost:9090 서버가 안열린다.
 
--실행은 메인(OOApplication)에서 해야한다.
+- 실행은 메인(OOApplication)에서 해야한다.
 
 
 
