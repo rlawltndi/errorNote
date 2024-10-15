@@ -28,7 +28,9 @@ system.uuid 가 정의되어 있지 않아 null 나온거 같다.
 - 실행은 메인(OOApplication)에서 해야한다.
 
 
+### Repository만들 때 class로 만들지 않게 주의
 
+- interface로 만들기
 
 
 
