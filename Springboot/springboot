@@ -24,13 +24,13 @@ system.uuid 가 정의되어 있지 않아 null 나온거 같다.
 
 
 ### http://localhost:9090 서버가 안열린다.
-
 - 실행은 메인(OOApplication)에서 해야한다.
 
 
 ### Repository만들 때 class로 만들지 않게 주의
-
 - interface로 만들기
 
-
+### event.preventDefault();
+- event.preventDefault();를 사용하지 않으면
+submit 됨과 동시에 창이 다시 실행되어 초기 화면으로 돌아오게 된다.
 
