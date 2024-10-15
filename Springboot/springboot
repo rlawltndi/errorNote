@@ -45,4 +45,4 @@ ex) call("요청경로") -> 요청경로가 없거나 오타
 Controller{
 	@GetMapping("리소스")
 	}
-```java
+```
