@@ -34,3 +34,15 @@ system.uuid 가 정의되어 있지 않아 null 나온거 같다.
 - event.preventDefault();를 사용하지 않으면
 submit 됨과 동시에 창이 다시 실행되어 초기 화면으로 돌아오게 된다.
 
+### 404 Not Found (요청경로가 잘못됨)
+-프론트엔드
+ex) call("요청경로") -> 요청경로가 없거나 오타
+
+-백엔드
+```java
+@ReController
+@RequestMapping("리소스") ->리소스가 없거나 오타
+Controller{
+	@GetMapping("리소스")
+	}
+```java
