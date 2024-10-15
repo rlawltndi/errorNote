@@ -4,5 +4,6 @@
   얘만 공백이 허용 안되는 거 같다. 아마도
  
   ```html
-  class =  ->  class=  수정
+  class =  x  
+  class=  o
   ```
