@@ -17,6 +17,3 @@ Controller{
 	@GetMapping("리소스")
 	}
 ```
-###ssh에러 https로 접속 시도해서 에러 발생
-- react에서 axios.get('https://localhost:9090/api/books' 부분
-- axios.get('http://localhost:9090/api/books' 수정 
