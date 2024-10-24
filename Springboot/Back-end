@@ -1,5 +1,5 @@
 ### package import 오류
-패키지나 import 할 파일 압축 풀 때 파일 안에 같은 이름의 파일이 있어서 오류
+-패키지나 import 할 파일 압축 풀 때 파일 안에 같은 이름의 파일이 있어서 오류
 ex) product/product/...
 - 압축 풀 때 "여기에 풀기" 하기
 
@@ -17,3 +17,6 @@ Controller{
 	@GetMapping("리소스")
 	}
 ```
+###ssh에러 https로 접속 시도해서 에러 발생
+- react에서 axios.get('https://localhost:9090/api/books' 부분
+- axios.get('http://localhost:9090/api/books' 수정 
