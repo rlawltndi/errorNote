@@ -5,12 +5,10 @@ ex) product/product/...
 #
 ### http://localhost:9090 서버가 안열린다.
 - 실행은 메인(OOApplication)에서 해야한다.
-
-
+#
 ### Repository만들 때 class로 만들지 않게 주의
 - interface로 만들기
-
-
+#
 ### 404 Not Found (요청경로가 잘못됨)
 ```java
 @ReController
@@ -19,3 +17,4 @@ Controller{
 	@GetMapping("리소스")
 	}
 ```
+#
