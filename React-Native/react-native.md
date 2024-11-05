@@ -6,3 +6,4 @@
 
 - container 안에 justity-content: center에 semicolon(;)이 없어서 생긴 오류
 -  ``(backtick) 안에는 semicolon을 사용해야한다.
+#
