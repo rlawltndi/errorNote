@@ -10,3 +10,10 @@
 ![KakaoTalk_20241118_151150315](https://github.com/user-attachments/assets/bd8cf79d-4fb6-49ad-9819-befad06e6f72)
 
 ![화면 캡처 2024-11-18 165817](https://github.com/user-attachments/assets/5a6b1015-931e-459a-b192-cdb07371fbc2)
+- collection()의 첫번째 인자는 firebase인스턴스와 컬렉션 이름을 전달해야하는데
+```
+  firebase.js에서 const db = getFirestore(app); //export를 안하고 사용해서 에러 발생
+```
+```
+export const db = getFirestore(app); //수정
+```
