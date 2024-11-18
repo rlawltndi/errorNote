@@ -8,3 +8,5 @@
 #
 ### collection error
 ![KakaoTalk_20241118_151150315](https://github.com/user-attachments/assets/bd8cf79d-4fb6-49ad-9819-befad06e6f72)
+
+![화면 캡처 2024-11-18 165817](https://github.com/user-attachments/assets/5a6b1015-931e-459a-b192-cdb07371fbc2)
