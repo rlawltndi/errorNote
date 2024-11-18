@@ -12,6 +12,11 @@
 ![화면 캡처 2024-11-18 165817](https://github.com/user-attachments/assets/5a6b1015-931e-459a-b192-cdb07371fbc2)
 - collection()의 첫번째 인자는 firebase 인스턴스와 컬렉션 이름을 전달해야한다.
 ```
+const collectionQuery = query(
+  collection(db, 'channels'), // 첫번째 인자로 받는 db가 현재 firebase인스턴스가 아님
+  orderBy('createdAt', 'desc')
+ );
+
  //firebase.js에서
  const db = getFirestore(app); //export를 안하고 사용해서 에러 발생
 ```
