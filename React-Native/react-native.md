@@ -17,9 +17,9 @@ const collectionQuery = query(
   orderBy('createdAt', 'desc')
  );
 
- //firebase.js에서
- const db = getFirestore(app); //export를 안하고 사용해서 에러 발생
-```
-```
+//firebase.js
+const db = getFirestore(app); //export를 안하고 사용해서 에러 발생
+
 export const db = getFirestore(app); //수정
 ```
+
