@@ -16,7 +16,8 @@ const collectionQuery = query(
   collection(db, 'channels'), // 첫번째 인자로 받는 db가 현재 firebase인스턴스가 아님
   orderBy('createdAt', 'desc')
  );
-
+```
+```
 //firebase.js
 const db = getFirestore(app); //export를 안하고 사용해서 에러 발생
 
