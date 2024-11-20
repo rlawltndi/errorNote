@@ -6,7 +6,7 @@ import { BrowserRouter as Route, Routes, Router } from "react-router-dom"; //err
 return (
       <Router> 
         <Routes>
-          <Route path=/' element={< />} />
+          <Route path='' element={< />} />
           <Route path='' element={< />} />
           <Route path='' element={< />} />
         </Routes>
