@@ -1,3 +1,4 @@
+### "error": "could not prepare statement
 ```
  "error": "could not prepare statement
  [Schema \"SYSTEM\" not found; SQL statement:\nselect next value for system.uuid [90079-224]]
