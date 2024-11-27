@@ -5,6 +5,7 @@ ex) product/product/...
 #
 ### http://localhost:9090 서버가 안열린다.
 - 실행은 메인(OOApplication)에서 해야한다.
+- 실행 할 어플리케이션 확인
 #
 ### Repository import 안됨
 - 만들 때 class로 만들지 않게 주의 interface로 만들기
